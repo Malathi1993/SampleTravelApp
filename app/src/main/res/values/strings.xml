@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SampleTravelApp</string>
+    <string name="traval_app" />
+    <string name="sing_up" />
+    <string name="sign_in" />
+    <string name="full_name" />
+    <string name="e_mail" />
+    <string name="title_home" />
+    <string name="title_notifications" />
+    <string name="title_dashboard" />
+</resources>
