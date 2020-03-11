@@ -26,7 +26,8 @@
             android:background="@drawable/skybluee_button_state2"
             android:gravity="center"
             android:text="I Can Book"
-            android:textAllCaps="false" />
+            android:textAllCaps="false"
+            android:textColor="@color/colorPrimary" />
 
     </LinearLayout>
 
@@ -51,11 +52,14 @@
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="235dp"
-        android:layout_height="56dp"
-        android:text="Button"
+        android:layout_width="290dp"
+        android:layout_height="61dp"
+        android:background="@drawable/skybluee_button_state"
+        android:text="Find Now"
+        android:textAllCaps="false"
+        android:textColor="@color/colorWhite"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="539dp" />
+        tools:layout_editor_absoluteY="534dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
