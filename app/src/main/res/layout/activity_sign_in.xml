@@ -17,6 +17,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
+
         <androidx.appcompat.widget.AppCompatImageView
             android:id="@+id/imageView1"
             android:layout_width="@dimen/_120sdp"
@@ -47,46 +48,58 @@
         android:background="@drawable/card_background"
         android:clipChildren="false"
         android:orientation="vertical"
-        android:padding="@dimen/_15sdp"
+        android:paddingLeft="@dimen/_15sdp"
+        android:paddingTop="15dp"
+        android:paddingRight="@dimen/_15sdp"
+        android:paddingBottom="45dp"
         android:translationY="@dimen/_minus35sdp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.482"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
         <include layout="@layout/sing_up_card"></include>
+
         <include layout="@layout/sing_up_card2"></include>
 
         <include layout="@layout/sing_up_card3"></include>
 
-        <Button
-            android:id="@+id/btn_sing_in"
-
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/_10sdp"
-            android:background="@drawable/skybluee_button_state"
-            android:clipChildren="false"
-            android:padding="@dimen/_10sdp"
-            android:text="SignIn"
-            android:textAllCaps="false"
-            android:textColor="@drawable/button_color"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView3" />
-
 
     </LinearLayout>
 
+    <Button
+        android:id="@+id/btn_sing_in"
+
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/skybluee_button_state"
+        android:clipChildren="false"
+        android:elevation="5dp"
+        android:text="SignIn"
+        android:textAllCaps="false"
+        android:textColor="@drawable/button_color"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline" />
+
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="242dp"
-        android:layout_height="33dp"
-        android:layout_marginTop="116dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
         android:text="Don't Have an Account? Create Now"
         android:textColor="#231a1a"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout3" />
+        app:layout_constraintTop_toBottomOf="@+id/btn_sing_in" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.6785226" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

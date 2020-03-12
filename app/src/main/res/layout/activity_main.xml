@@ -44,28 +44,31 @@
 
     <Button
         android:id="@+id/btn_signup"
-        android:layout_width="194dp"
-        android:layout_height="35dp"
+        android:layout_width="199dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="60dp"
         android:layout_marginTop="56dp"
+        android:layout_marginEnd="60dp"
         android:background="@drawable/skybluee_button_state"
         android:text="Sign Up"
         android:textColor="@color/colorWhite"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.625"
+        app:layout_constraintHorizontal_bias="0.566"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tv_travelname1" />
 
     <Button
         android:id="@+id/btn_signin"
-        android:layout_width="213dp"
-        android:layout_height="35dp"
-        android:layout_marginStart="140dp"
-        android:layout_marginTop="36dp"
+        android:layout_width="215dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="60dp"
         android:background="@drawable/skybluee_button_state2"
         android:text="Sign In"
         android:textColor="@color/colorPrimary"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.684"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn_signup" />
 </androidx.constraintlayout.widget.ConstraintLayout>

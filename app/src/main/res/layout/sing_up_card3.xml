@@ -8,9 +8,9 @@
 
     <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/textView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Password"
+        android:layout_width="72dp"
+        android:layout_height="17dp"
+        android:hint="Password"
         android:textColor="@color/colorGray"
         app:layout_constraintEnd_toStartOf="@+id/imageView2"
         app:layout_constraintHorizontal_bias="0.0"
@@ -20,12 +20,12 @@
     <androidx.appcompat.widget.AppCompatImageView
         android:id="@+id/imageView2"
 
-        android:layout_width="@dimen/_30sdp"
-        android:layout_height="@dimen/_30sdp"
+        android:layout_width="62dp"
+        android:layout_height="37dp"
         android:src="@drawable/ic_remove_red_eye_black_24dp"
+        android:tint="@color/colorGray"
         app:layout_constraintBottom_toBottomOf="@+id/editText2"
         app:layout_constraintEnd_toEndOf="parent"
-        android:tint="@color/colorGray"
         app:layout_constraintStart_toEndOf="@+id/editText2"
         app:layout_constraintTop_toTopOf="@+id/textView4"
         app:layout_constraintVertical_bias="1.0" />

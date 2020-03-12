@@ -73,8 +73,8 @@
             android:layout_height="48dp"
             android:layout_gravity="bottom"
             android:background="@color/colorPrimary"
-            app:itemIconTint="@color/white"
-            app:itemTextColor="@color/white"
+            app:itemIconTint="@color/White"
+            app:itemTextColor="@color/White"
             app:menu="@menu/bottom_navigation_menu" />
 
     </FrameLayout>
