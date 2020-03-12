@@ -95,6 +95,7 @@
         android:layout_height="221dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        android:background="@drawable/skybluee_button_state2"
         app:srcCompat="@drawable/travel_logoo"
         tools:layout_editor_absoluteY="78dp" />
 

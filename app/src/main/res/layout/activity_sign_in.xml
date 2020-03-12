@@ -64,8 +64,6 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/linearLayout">
 
-            <include layout="@layout/sing_up_card"></include>
-
             <include layout="@layout/sing_up_card2"></include>
 
             <include layout="@layout/sing_up_card3"></include>
@@ -106,7 +104,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            app:layout_constraintGuide_percent="0.6785226" />
+            app:layout_constraintGuide_percent="0.65" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

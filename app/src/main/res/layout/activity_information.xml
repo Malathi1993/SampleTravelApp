@@ -10,11 +10,10 @@
         android:id="@+id/linearLayout6"
         android:layout_width="404dp"
         android:layout_height="295dp"
-        android:background="@color/colorlite"
+        android:background="@color/colorPrimary"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.428"
-
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -23,6 +22,7 @@
             android:layout_width="196dp"
             android:layout_height="206dp"
             android:layout_gravity="center"
+            android:background="@drawable/skybluee_button_state2"
             app:srcCompat="@drawable/travel_logoo" />
 
         <TextView

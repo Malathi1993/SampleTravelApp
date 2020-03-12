@@ -78,7 +78,7 @@
                 android:background="@drawable/skybluee_button_state"
                 android:clipChildren="false"
                 android:padding="@dimen/_10sdp"
-                android:text="SingUp"
+                android:text="SignUp"
                 android:textAllCaps="false"
                 android:textColor="@drawable/button_color"
                 app:layout_constraintEnd_toEndOf="parent"
