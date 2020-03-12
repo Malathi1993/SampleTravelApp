@@ -14,7 +14,7 @@ Button Facebook;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sign_up);
-        Signup=(Button)findViewById(R.id.btn_signup);
+        Signup=(Button)findViewById(R.id.btn_sing_up);
         Signup.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

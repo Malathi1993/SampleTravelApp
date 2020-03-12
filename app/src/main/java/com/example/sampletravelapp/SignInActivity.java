@@ -13,7 +13,7 @@ Button SignIn;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sign_in);
-        SignIn=(Button)findViewById(R.id.btn_signup);
+        SignIn=(Button)findViewById(R.id.btn_sing_in);
         SignIn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

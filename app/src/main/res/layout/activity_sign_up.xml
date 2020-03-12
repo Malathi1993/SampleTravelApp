@@ -1,121 +1,129 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_marginBottom="@dimen/_55sdp"
+    android:fillViewport="true"
     android:fitsSystemWindows="true">
 
-
-    <LinearLayout
-        android:id="@+id/linearLayout"
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="@dimen/_270sdp"
-        android:background="@drawable/gradient_skybluee"
-        android:gravity="center_horizontal"
-        android:orientation="vertical"
-        android:paddingTop="@dimen/_50sdp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_270sdp"
+            android:background="@drawable/gradient_skybluee"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:paddingTop="@dimen/_50sdp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
 
 
-        <androidx.appcompat.widget.AppCompatImageView
-            android:id="@+id/imageView1"
-            android:layout_width="@dimen/_120sdp"
-            android:layout_height="@dimen/_120sdp"
-            android:layout_marginBottom="@dimen/_25sdp"
-            android:background="@drawable/skybluee_button_state2"
-            android:elevation="@dimen/_10sdp"
-            android:padding="@dimen/_15sdp"
-            android:scaleType="fitCenter"
-            android:src="@drawable/travel_logoo" />
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/imageView1"
+                android:layout_width="@dimen/_120sdp"
+                android:layout_height="@dimen/_120sdp"
+                android:layout_marginBottom="@dimen/_25sdp"
+                android:background="@drawable/skybluee_button_state2"
+                android:elevation="@dimen/_10sdp"
+                android:padding="@dimen/_15sdp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/travel_logoo" />
 
-        <TextView
-            android:id="@+id/textView2"
-            android:layout_width="wrap_content"
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/traval_app"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/_25ssp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/traval_app"
-            android:textColor="@color/colorWhite"
-            android:textSize="@dimen/_25ssp"
-            android:textStyle="bold" />
+            android:layout_marginLeft="@dimen/_15sdp"
+            android:layout_marginRight="@dimen/_15sdp"
+            android:background="@drawable/card_background"
+            android:clipChildren="false"
+            android:orientation="vertical"
+            android:padding="@dimen/_15sdp"
+            android:translationY="@dimen/_minus35sdp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.421"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout">
 
-    </LinearLayout>
+            <include layout="@layout/sing_up_card"></include>
 
-    <LinearLayout
-        android:id="@+id/linearLayout3"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="@dimen/_15sdp"
-        android:layout_marginRight="@dimen/_15sdp"
-        android:background="@drawable/card_background"
-        android:clipChildren="false"
-        android:orientation="vertical"
-        android:padding="@dimen/_15sdp"
-        android:translationY="@dimen/_minus35sdp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.421"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+            <include layout="@layout/sing_up_card2"></include>
 
-        <include layout="@layout/sing_up_card"></include>
+            <include layout="@layout/sing_up_card3"></include>
 
-        <include layout="@layout/sing_up_card2"></include>
+            <Button
+                android:id="@+id/btn_sing_up"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:background="@drawable/skybluee_button_state"
+                android:clipChildren="false"
+                android:padding="@dimen/_10sdp"
+                android:text="SingUp"
+                android:textAllCaps="false"
+                android:textColor="@drawable/button_color"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
-        <include layout="@layout/sing_up_card3"></include>
+
+        </LinearLayout>
+
 
         <Button
-            android:id="@+id/btn_sing_up"
-            android:layout_width="250dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="@dimen/_10sdp"
-            android:background="@drawable/skybluee_button_state"
+            android:id="@+id/sign_facebook"
+            android:layout_width="241dp"
+            android:layout_height="41dp"
+            android:background="@drawable/bluee_button_state"
             android:clipChildren="false"
-            android:padding="@dimen/_10sdp"
-            android:text="SingUp"
+            android:text="Sign up with FACEBOOK"
             android:textAllCaps="false"
-            android:textColor="@drawable/button_color"
+            android:textColor="@color/colorWhite"
+            android:translationY="@dimen/_minus30sdp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout3" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="291dp"
+            android:layout_height="32dp"
+            android:text="Already have an account? SignIn"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView3" />
+            app:layout_constraintTop_toBottomOf="parent" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_end="131dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
 
-    </LinearLayout>
 
 
-    <Button
-        android:id="@+id/sign_facebook"
-        android:layout_width="241dp"
-        android:layout_height="41dp"
-        android:background="@drawable/bluee_button_state"
-        android:clipChildren="false"
-        android:text="Sign up with FACEBOOK"
-        android:textAllCaps="false"
-        android:textColor="@color/colorWhite"
-        android:translationY="@dimen/_minus30sdp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout3" />
 
-    <TextView
-        android:id="@+id/textView10"
-        android:layout_width="291dp"
-        android:layout_height="32dp"
-        android:text="Already have an account? SignIn"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="parent" />
-
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintGuide_end="131dp" />
-
-
-</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
