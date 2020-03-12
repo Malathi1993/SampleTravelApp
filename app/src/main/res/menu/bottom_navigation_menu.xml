@@ -1,19 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <item
-        android:id="@+id/navigation_home"
-        android:icon="@drawable/ic_home"
-        android:title="home" />
 
     <item
         android:id="@+id/navigation_dashboard"
         android:icon="@drawable/ic_card_travel"
-        android:title="dashboard" />
+        android:title="dashboard"
+        android:iconTint="@color/colorWhite"
+        app:showAsAction="always" />
 
     <item
         android:id="@+id/navigation_notifications"
+        android:iconTint="@color/colorWhite"
+
         android:icon="@drawable/ic_add_alert"
-        android:title="notifications" />
+        android:title="notifications"
+
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home"
+        android:iconTint="@color/colorWhite"
+
+        android:title="home"
+
+        app:showAsAction="always" />
+
 
 </menu>
