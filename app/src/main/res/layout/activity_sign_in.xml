@@ -75,7 +75,6 @@
             android:id="@+id/btn_sing_in"
             android:layout_width="@dimen/_250sdp"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
             android:layout_marginTop="@dimen/_15sdp"
             android:background="@drawable/skybluee_button_state"
             android:clipChildren="false"
@@ -108,8 +107,5 @@
             app:layout_constraintGuide_percent="0.54" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
-
-
-
 
 </ScrollView>
