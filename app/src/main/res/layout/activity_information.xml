@@ -23,7 +23,6 @@
             android:layout_height="@dimen/_170sdp"
             android:layout_gravity="center"
             android:layout_marginTop="@dimen/_10sdp"
-            android:background="@drawable/skybluee_button_state2"
             app:srcCompat="@drawable/travel_logoo" />
 
         <TextView
@@ -31,7 +30,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="Madhuri Travels"
+            android:text="Mounika Travels"
             android:textColor="@color/colorWhite"
             android:textSize="@dimen/_15sdp" />
 

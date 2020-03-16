@@ -212,7 +212,7 @@
         android:layout_height="49dp"
         android:layout_marginTop="24dp"
         android:layout_marginBottom="82dp"
-        android:text="Madhuri Travels"
+        android:text="Mounika Travels"
         android:textSize="@dimen/_25sdp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/linearLayout4"
