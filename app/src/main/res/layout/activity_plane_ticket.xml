@@ -9,7 +9,7 @@
 
     <LinearLayout
         android:id="@+id/linearLayout5"
-        android:layout_width="415dp"
+        android:layout_width="match_parent"
         android:layout_height="224dp"
         android:background="@color/colorPrimary"
         android:orientation="vertical"
@@ -115,8 +115,8 @@
 
     <Button
         android:id="@+id/button3"
-        android:layout_width="222dp"
-        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_marginTop="64dp"
         android:background="@drawable/skybluee_button_state"
         android:text="Search Flights"
