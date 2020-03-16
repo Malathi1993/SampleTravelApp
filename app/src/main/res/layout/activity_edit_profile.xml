@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#ffff"
-    tools:context=".EditProfileActivity">
+    android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
 
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="match_parent"
-        android:layout_height="@dimen/_220sdp"
+        android:layout_height="243dp"
         android:background="@drawable/semicircular"
         android:gravity="center_horizontal"
         android:orientation="vertical"
@@ -27,7 +30,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/_12sdp"
-        android:layout_marginTop="@dimen/_12sdp"
+        android:layout_marginTop="88dp"
         android:layout_marginEnd="@dimen/_12sdp"
         android:orientation="horizontal"
         android:padding="@dimen/_5sdp"
@@ -54,11 +57,11 @@
             android:background="@null"
             android:gravity="right"
             android:paddingRight="@dimen/_5sdp"
-            android:text="Malathi@outlook.com"></EditText>
+            android:text="Malathi@outlook.com"/>
 
     </LinearLayout>
 
-    <ImageView
+    <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/imageView"
         android:layout_width="@dimen/_130sdp"
         android:layout_height="@dimen/_130sdp"
@@ -133,7 +136,7 @@
             android:background="@null"
             android:gravity="right"
             android:paddingRight="@dimen/_5sdp"
-            android:text="20+ 5686565978656"></EditText>
+            android:text="20+ 5686565978656"/>
     </LinearLayout>
 
 
@@ -170,7 +173,7 @@
                 android:layout_height="wrap_content"
                 android:background="@null"
                 android:gravity="right"
-                android:text="Female"></EditText>
+                android:text="Female"/>
 
         </LinearLayout>
 
@@ -196,14 +199,28 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="@null"
-                android:gravity="right"
+                android:gravity="end"
                 android:paddingRight="@dimen/_5sdp"
-                android:text="26 Years"></EditText>
+                android:text="26 Years"/>
 
         </LinearLayout>
-
-
     </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="303dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="82dp"
+        android:text="Madhuri Travels"
+        android:textSize="@dimen/_30sdp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/linearLayout4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
