@@ -12,8 +12,8 @@
 
     <LinearLayout
         android:id="@+id/linearLayout4"
-        android:layout_width="415dp"
-        android:layout_height="216dp"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_180sdp"
         android:background="@drawable/semicircular"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
@@ -25,10 +25,11 @@
 
     <TextView
         android:id="@+id/textView6"
-        android:layout_width="283dp"
-        android:layout_height="38dp"
-        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_16sdp"
         android:text="Madhuri Travels"
+        android:gravity="center"
         android:textSize="@dimen/_25sdp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -36,10 +37,12 @@
 
     <TextView
         android:id="@+id/textView7"
-        android:layout_width="134dp"
-        android:layout_height="18dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
+        android:gravity="center"
         android:text="Hyderabad"
+        android:textSize="@dimen/_15sdp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
@@ -47,9 +50,9 @@
 
     <TextView
         android:id="@+id/textView8"
-        android:layout_width="153dp"
-        android:layout_height="37dp"
-        android:layout_marginTop="48dp"
+        android:layout_width="@dimen/_150sdp"
+        android:layout_height="@dimen/_37sdp"
+        android:layout_marginTop="@dimen/_40sdp"
         android:text="Private Details"
         android:textStyle="bold"
         android:textSize="@dimen/_15sdp"
@@ -59,8 +62,8 @@
         app:layout_constraintTop_toBottomOf="@+id/textView7" />
 
     <LinearLayout
-        android:layout_width="403dp"
-        android:layout_height="335dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -69,8 +72,8 @@
 
         <EditText
             android:id="@+id/editText7"
-            android:layout_width="375dp"
-            android:layout_height="49dp"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_42sdp"
             android:layout_marginLeft="@dimen/_10sdp"
             android:layout_marginTop="@dimen/_20sdp"
             android:background="@drawable/edittext_corner"
@@ -80,8 +83,8 @@
 
         <EditText
             android:id="@+id/editText8"
-            android:layout_width="373dp"
-            android:layout_height="51dp"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_42sdp"
             android:layout_marginLeft="@dimen/_10sdp"
             android:layout_marginTop="@dimen/_20sdp"
             android:background="@drawable/edittext_corner"
@@ -95,16 +98,16 @@
             android:orientation="horizontal">
 
             <EditText
-                android:layout_width="179dp"
-                android:layout_height="55dp"
+                android:layout_width="@dimen/_140sdp"
+                android:layout_height="@dimen/_42sdp"
                 android:layout_marginLeft="@dimen/_10sdp"
                 android:layout_marginTop="@dimen/_20sdp"
                 android:background="@drawable/edittext_corner"
                 android:text="Gender" />
 
             <EditText
-                android:layout_width="178dp"
-                android:layout_height="55dp"
+                android:layout_width="@dimen/_140sdp"
+                android:layout_height="@dimen/_42sdp"
                 android:layout_marginLeft="@dimen/_10sdp"
                 android:layout_marginTop="@dimen/_20sdp"
                 android:background="@drawable/edittext_corner"
@@ -113,8 +116,8 @@
 
         <EditText
             android:id="@+id/editText9"
-            android:layout_width="376dp"
-            android:layout_height="50dp"
+            android:layout_width="@dimen/_280sdp"
+            android:layout_height="@dimen/_42sdp"
             android:layout_marginLeft="@dimen/_10sdp"
             android:layout_marginTop="@dimen/_20sdp"
             android:background="@drawable/edittext_corner"
@@ -125,9 +128,9 @@
 
     <ImageButton
         android:id="@+id/imageButton"
-        android:layout_width="201dp"
-        android:layout_height="221dp"
-        android:layout_marginTop="108dp"
+        android:layout_width="@dimen/_150sdp"
+        android:layout_height="@dimen/_160sdp"
+        android:layout_marginTop="@dimen/_72sdp"
         android:background="@drawable/skybluee_button_state2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

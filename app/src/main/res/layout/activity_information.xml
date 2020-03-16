@@ -8,8 +8,8 @@
 
     <LinearLayout
         android:id="@+id/linearLayout6"
-        android:layout_width="404dp"
-        android:layout_height="295dp"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_225sdp"
         android:background="@color/colorPrimary"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
@@ -19,25 +19,24 @@
 
         <ImageButton
             android:id="@+id/imageButton2"
-            android:layout_width="196dp"
-            android:layout_height="206dp"
+            android:layout_width="@dimen/_170sdp"
+            android:layout_height="@dimen/_170sdp"
             android:layout_gravity="center"
             android:background="@drawable/skybluee_button_state2"
             app:srcCompat="@drawable/travel_logoo" />
 
         <TextView
             android:id="@+id/textView9"
-            android:layout_width="190dp"
-            android:layout_height="38dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_gravity="center"
-
             android:text="Madhuri Travels"
             android:textColor="@color/colorWhite"
             android:textSize="@dimen/_15sdp" />
 
         <TextView
             android:id="@+id/textView11"
-            android:layout_width="175dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:text="Hyderabad"
@@ -48,9 +47,9 @@
 
     <EditText
         android:id="@+id/editText"
-        android:layout_width="262dp"
-        android:layout_height="43dp"
-        android:layout_marginTop="36dp"
+        android:layout_width="@dimen/_230sdp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_32sdp"
         android:ems="10"
         android:inputType="textPersonName"
         android:drawableLeft="@drawable/ic_cloud"
@@ -62,9 +61,9 @@
 
     <EditText
         android:id="@+id/editText3"
-        android:layout_width="257dp"
-        android:layout_height="43dp"
-        android:layout_marginTop="28dp"
+        android:layout_width="@dimen/_230sdp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_20sdp"
         android:ems="10"
         android:inputType="textPersonName"
         android:drawableLeft="@drawable/ic_content_paste"
@@ -76,9 +75,9 @@
 
     <EditText
         android:id="@+id/editText4"
-        android:layout_width="251dp"
-        android:layout_height="49dp"
-        android:layout_marginTop="28dp"
+        android:layout_width="@dimen/_230sdp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_20sdp"
         android:ems="10"
         android:inputType="textPersonName"
         android:drawableLeft="@drawable/ic_add_alert"
@@ -90,9 +89,9 @@
 
     <EditText
         android:id="@+id/editText5"
-        android:layout_width="247dp"
-        android:layout_height="49dp"
-        android:layout_marginTop="12dp"
+        android:layout_width="@dimen/_230sdp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_20sdp"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="Help"
@@ -104,9 +103,9 @@
 
     <EditText
         android:id="@+id/editText6"
-        android:layout_width="250dp"
-        android:layout_height="44dp"
-        android:layout_marginTop="20dp"
+        android:layout_width="@dimen/_230sdp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_20sdp"
         android:ems="10"
         android:drawableLeft="@drawable/ic_send"
         android:inputType="textPersonName"

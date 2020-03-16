@@ -11,9 +11,9 @@
 
     <Button
         android:id="@+id/button4"
-        android:layout_width="295dp"
-        android:layout_height="55dp"
-        android:layout_marginTop="210dp"
+        android:layout_width="@dimen/_260sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_marginTop="@dimen/_160sdp"
         android:background="@drawable/skybluee_button_state2"
         android:drawableLeft="@drawable/ic_search"
         android:text="Search"
