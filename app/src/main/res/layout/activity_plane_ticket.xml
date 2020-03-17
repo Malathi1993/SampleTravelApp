@@ -19,6 +19,25 @@
 
     </LinearLayout>
 
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabLayout"
+        android:layout_width="385dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/tablayout_background"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.384"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout5"
+        app:tabBackground="@drawable/tab_background_selected"
+        app:tabIndicatorHeight="0dp"
+        app:tabMode="scrollable"
+        app:tabPaddingEnd="16dp"
+        app:tabPaddingStart="16dp"
+        app:tabRippleColor="@null"
+        app:tabSelectedTextColor="@color/colorPrimaryDark"
+        app:tabTextAppearance="@style/TabTextAppearance" />
+
     <EditText
         android:id="@+id/editText15"
         android:layout_width="177dp"
@@ -114,8 +133,8 @@
 
     <Button
         android:id="@+id/button3"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="333dp"
+        android:layout_height="43dp"
         android:layout_marginTop="64dp"
         android:background="@drawable/skybluee_button_state"
         android:text="Search Flights"
