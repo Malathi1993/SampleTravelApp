@@ -7,15 +7,17 @@
     android:background="@color/colorWhite"
     tools:context=".SplashScreenActivity">
 
-    <ImageView
+    <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/imageView"
-        android:layout_width="wrap_content"
-        android:layout_height="@dimen/_120sdp"
-        android:layout_marginTop="@dimen/_200sdp"
+        android:layout_width="@dimen/_150sdp"
+        android:layout_height="@dimen/_150sdp"
+        android:elevation="4dp"
+        android:src="@drawable/travel_logoo"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.554"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.35"
         app:srcCompat="@drawable/travel_logoo" />
 
     <TextView
@@ -24,8 +26,10 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/_40sdp"
         android:gravity="center"
+        android:textColor="#000"
         android:text="Travel App"
-        android:textStyle="bold"
+
+        style="@style/TextAppearance.MaterialComponents.Headline2"
         android:textSize="@dimen/_30sdp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"

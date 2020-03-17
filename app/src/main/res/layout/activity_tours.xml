@@ -27,10 +27,10 @@
             android:layout_height="108dp"
             android:layout_marginTop="@dimen/_25sdp"
             app:cardCornerRadius="@dimen/_20sdp"
-        android:background="@drawable/shadow_card"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button4">
+            android:background="@drawable/shadow_card"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button4">
 
         <ImageView
             android:id="@+id/imageView3"

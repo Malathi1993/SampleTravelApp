@@ -9,7 +9,8 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/_100sdp">
 
         <LinearLayout
             android:id="@+id/linearLayout"
@@ -77,8 +78,9 @@
                 android:layout_marginTop="@dimen/_10sdp"
                 android:background="@drawable/skybluee_button_state"
                 android:clipChildren="false"
+                android:minHeight="@dimen/_45sdp"
                 android:padding="@dimen/_10sdp"
-                android:text="SignUp"
+                android:text="Sign Up"
                 android:textAllCaps="false"
                 android:textColor="@drawable/button_color"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -95,6 +97,8 @@
             android:layout_height="@dimen/_40sdp"
             android:background="@drawable/bluee_button_state"
             android:clipChildren="false"
+            android:minHeight="@dimen/_45sdp"
+
             android:text="Sign up with FACEBOOK"
             android:textAllCaps="false"
             android:textColor="@color/colorWhite"
@@ -106,8 +110,8 @@
 
         <TextView
             android:id="@+id/textView10"
-            android:layout_width="295dp"
-            android:layout_height="38dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:text="Already have an account? SignIn"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.577"

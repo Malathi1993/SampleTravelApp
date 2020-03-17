@@ -45,74 +45,101 @@
 
     </LinearLayout>
 
-    <EditText
+    <androidx.appcompat.widget.AppCompatTextView
+
         android:id="@+id/editText"
-        android:layout_width="@dimen/_230sdp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/_32sdp"
-        android:ems="10"
-        android:inputType="textPersonName"
+        android:layout_marginStart="@dimen/_25sdp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="@dimen/_25sdp"
+        android:background="@drawable/bottom_line"
         android:drawableLeft="@drawable/ic_cloud"
+        android:drawablePadding="@dimen/_10sdp"
+        android:drawableTint="#C7C9CA"
+        android:gravity="center|left"
+        android:inputType="textPersonName"
+        android:minHeight="@dimen/_35sdp"
+        android:padding="@dimen/_10sdp"
         android:text="SocialNetworks"
+        app:drawableTint="#C6C4C4"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.637"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout6" />
 
-    <EditText
+    <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/editText3"
-        android:layout_width="@dimen/_230sdp"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/_20sdp"
-        android:ems="10"
-        android:inputType="textPersonName"
+        android:background="@drawable/bottom_line"
+
         android:drawableLeft="@drawable/ic_content_paste"
+        android:drawablePadding="@dimen/_10sdp"
+        android:drawableTint="#C7C9CA"
+        android:inputType="textPersonName"
+        android:minHeight="@dimen/_35sdp"
+        android:padding="@dimen/_10sdp"
+
         android:text="TravelGuide"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.649"
-        app:layout_constraintStart_toStartOf="parent"
+        app:drawableTint="#C6C4C4"
+        app:layout_constraintEnd_toEndOf="@+id/editText"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/editText"
         app:layout_constraintTop_toBottomOf="@+id/editText" />
 
-    <EditText
+    <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/editText4"
-        android:layout_width="@dimen/_230sdp"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/_20sdp"
-        android:ems="10"
-        android:inputType="textPersonName"
+        android:background="@drawable/bottom_line"
         android:drawableLeft="@drawable/ic_add_alert"
+
+        android:drawablePadding="@dimen/_10sdp"
+        android:inputType="textPersonName"
+        android:minHeight="@dimen/_35sdp"
+        android:padding="@dimen/_10sdp"
+
         android:text="Notification"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.637"
-        app:layout_constraintStart_toStartOf="parent"
+        app:drawableTint="#C6C4C4"
+        app:layout_constraintEnd_toEndOf="@+id/editText"
+        app:layout_constraintStart_toStartOf="@+id/editText"
         app:layout_constraintTop_toBottomOf="@+id/editText3" />
 
-    <EditText
+    <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/editText5"
-        android:layout_width="@dimen/_230sdp"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/_20sdp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Help"
+        android:background="@drawable/bottom_line"
         android:drawableLeft="@drawable/ic_data"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.646"
-        app:layout_constraintStart_toStartOf="parent"
+        android:drawablePadding="@dimen/_10sdp"
+        android:inputType="textPersonName"
+        android:minHeight="@dimen/_35sdp"
+        android:padding="@dimen/_10sdp"
+
+        android:text="Help"
+
+        app:drawableTint="#C6C4C4"
+        app:layout_constraintEnd_toEndOf="@+id/editText"
+        app:layout_constraintStart_toStartOf="@+id/editText"
         app:layout_constraintTop_toBottomOf="@+id/editText4" />
 
-    <EditText
+    <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/editText6"
-        android:layout_width="@dimen/_230sdp"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/_20sdp"
-        android:ems="10"
+
+        android:background="@drawable/bottom_line"
         android:drawableLeft="@drawable/ic_send"
+        android:drawablePadding="@dimen/_10sdp"
         android:inputType="textPersonName"
+
+        android:minHeight="@dimen/_35sdp"
+        android:padding="@dimen/_10sdp"
         android:text="Feedback"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.633"
-        app:layout_constraintStart_toStartOf="parent"
+        app:drawableTint="#C6C4C4"
+        app:layout_constraintEnd_toEndOf="@+id/editText"
+        app:layout_constraintStart_toStartOf="@+id/editText"
         app:layout_constraintTop_toBottomOf="@+id/editText5" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
