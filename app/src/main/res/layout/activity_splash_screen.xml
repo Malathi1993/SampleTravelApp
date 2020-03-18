@@ -28,7 +28,6 @@
         android:gravity="center"
         android:textColor="#000"
         android:text="Travel App"
-
         style="@style/TextAppearance.MaterialComponents.Headline2"
         android:textSize="@dimen/_30sdp"
         app:layout_constraintEnd_toEndOf="parent"

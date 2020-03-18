@@ -11,20 +11,22 @@
 
     <Button
         android:id="@+id/button4"
-        android:layout_width="@dimen/_260sdp"
-        android:layout_height="@dimen/_40sdp"
-        android:layout_marginTop="@dimen/_160sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_30sdp"
+        android:layout_marginEnd="@dimen/_30sdp"
+        android:layout_marginTop="@dimen/_150sdp"
         android:background="@drawable/skybluee_button_state2"
         android:drawableLeft="@drawable/ic_search"
         android:text="Search"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
         <androidx.cardview.widget.CardView
         android:id="@+id/cardView4"
-            android:layout_width="340dp"
+            android:layout_width="match_parent"
             android:layout_height="108dp"
+            android:layout_marginStart="@dimen/_30sdp"
+            android:layout_marginEnd="@dimen/_30sdp"
             android:layout_marginTop="@dimen/_25sdp"
             app:cardCornerRadius="@dimen/_20sdp"
             android:background="@drawable/shadow_card"
@@ -36,7 +38,6 @@
             android:id="@+id/imageView3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:contentDescription=""
             android:scaleType="centerCrop"
             android:tint="#5C2E2C2A"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -54,17 +55,15 @@
                 android:text="Greece"
                 android:layout_gravity="center"
                 android:textColor="#FFFFFF"
-                android:textSize="36sp"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+                android:textSize="36sp" />
         </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView3"
-        android:layout_width="340dp"
-        android:layout_height="108dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_30sdp"
+        android:layout_marginEnd="@dimen/_30sdp"
         android:layout_marginTop="@dimen/_25sdp"
         app:cardCornerRadius="@dimen/_20sdp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -73,9 +72,10 @@
 
         <ImageView
             android:layout_width="339dp"
-            android:layout_height="127dp"
+            android:layout_height="@dimen/_100sdp"
             android:scaleType="center"
-            android:src="@drawable/unitedstates"></ImageView>
+            android:src="@drawable/unitedstates"
+            app:layout_constraintVertical_bias="0.0"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -84,11 +84,7 @@
             android:shadowColor="#FFFFFF"
             android:text="UnitedStates"
             android:textColor="#FFFFFF"
-            android:textSize="36sp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"></TextView>
+            android:textSize="36sp" />
 
     </androidx.cardview.widget.CardView>
 
@@ -103,9 +99,9 @@
 
         <ImageView
             android:layout_width="match_parent"
-            android:layout_height="119dp"
+            android:layout_height="@dimen/_100sdp"
             android:scaleType="center"
-            android:src="@drawable/unitedkingdom"></ImageView>
+            android:src="@drawable/unitedkingdom"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -114,11 +110,7 @@
             android:shadowColor="#FFFFFF"
             android:text="UnitedKingdom"
             android:textColor="#FFFFFF"
-            android:textSize="36sp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"></TextView>
+            android:textSize="36sp" />
     </androidx.cardview.widget.CardView>
 
     <FrameLayout
@@ -126,10 +118,10 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
         <LinearLayout
-            android:layout_width="411dp"
-            android:layout_height="230dp"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_170sdp"
             android:background="@color/colorPrimary"
-            android:orientation="vertical"></LinearLayout>
+            android:orientation="vertical"/>
     </FrameLayout>
 
         <com.google.android.material.bottomnavigation.BottomNavigationView

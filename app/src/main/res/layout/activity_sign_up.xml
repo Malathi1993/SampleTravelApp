@@ -72,8 +72,8 @@
 
             <Button
                 android:id="@+id/btn_sing_up"
-                android:layout_width="@dimen/_230sdp"
-                android:layout_height="wrap_content"
+                android:layout_width="289dp"
+                android:layout_height="49dp"
                 android:layout_gravity="center"
                 android:layout_marginTop="@dimen/_10sdp"
                 android:background="@drawable/skybluee_button_state"
@@ -98,7 +98,6 @@
             android:background="@drawable/bluee_button_state"
             android:clipChildren="false"
             android:minHeight="@dimen/_45sdp"
-
             android:text="Sign up with FACEBOOK"
             android:textAllCaps="false"
             android:textColor="@color/colorWhite"
